@@ -1,0 +1,110 @@
+body{
+
+    background-color: rgb(36, 32, 3);
+    color: white;
+    font-family: Helvetica
+}
+
+.container{
+    width: 500px;
+    height: 550px;
+    background-color: black;
+    position: relative;
+    left: 350px;
+    top: 50px;
+    border-radius: 15px;
+
+}
+
+.information{
+
+text-align: center;
+padding: 10px;
+}
+
+a{
+
+    color: aquamarine;
+    text-decoration: none;
+}
+
+.textInput{
+    width: 250px;
+    padding: 8px;
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid aquamarine;
+    color: azure;
+    margin-top: 40px;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+Input:hover{
+    border-bottom: 1px solid aqua;
+}
+
+.passwordInput{
+    width: 250px;
+    padding: 8px;
+    border: none;
+    background-color: black;
+    border-bottom: 1px solid aquamarine;
+    color: azure;
+    margin-top: 40px;
+
+}
+p{
+    padding: 20px;
+}
+
+i{
+
+    color: aquamarine;
+    font-size: 30px;
+}
+
+.fa-telegram{
+    position: relative;
+    right: 20px;
+}
+
+.fa-linkedin{
+
+    position: relative;
+    left: 20px;
+}
+
+.pText{
+
+    display: none;
+}
+
+.pPassword{
+
+    display: none;
+}
+
+.buttonLogin{
+
+    border: none;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+.buttonLogin:hover{
+
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.fa-github{
+
+    position: relative;
+    left: 30px;
+}

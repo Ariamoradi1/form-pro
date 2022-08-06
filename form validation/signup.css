@@ -1,0 +1,114 @@
+body{
+
+    background-color: rgb(36, 32, 3);
+    color: white;
+    font-family: Helvetica
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: black;
+    position: relative;
+    left: 350px;
+    top: 50px;
+    border-radius: 15px;
+
+}
+
+.information{
+
+    text-align: center;
+    padding: 10px;
+
+    }
+    
+    a{
+    
+        color: aquamarine;
+        text-decoration: none;
+    }
+    
+    Input{
+        width: 250px;
+        padding: 8px;
+        border: none;
+        background-color: black;
+        border-bottom: 1px solid aquamarine;
+        color: azure;
+        margin-top: 40px;
+    }
+
+    input::placeholder{
+        color: white;
+        font-size: 15px;
+    }
+
+    Input:hover{
+        border-bottom: 1px solid aqua;
+    }
+
+    p{
+        padding: 20px;
+    }
+    
+    i{
+    
+        color: aquamarine;
+        font-size: 30px;
+    }
+    
+    .fa-telegram{
+        position: relative;
+        right: 20px;
+    }
+    
+    .fa-linkedin{
+    
+        position: relative;
+        left: 20px;
+    }
+
+    .buttonSignup{
+
+        border: none;
+        padding: 10px;
+        width: 200px;
+        border-radius: 5px;
+        background-color: aquamarine;
+        position: relative;
+        top: 50px;
+        cursor: pointer;
+    }
+
+    .buttonSignuP:hover{
+
+        background-color: aqua;
+    }
+
+    .pText{
+
+        display: none;
+    }
+
+    .pPassword{
+
+        display: none;
+    }
+
+    .Loginp{
+
+        padding: 70px;
+    }
+    
+    .icons{
+        position: relative;
+        bottom: 30px;
+    }
+
+    .fa-github{
+
+        position: relative;
+        left: 30px;
+    }
+    
